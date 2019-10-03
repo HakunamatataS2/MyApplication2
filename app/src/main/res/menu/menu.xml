@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/m0"
+        android:title="Home" />
+    <item
+        android:id="@+id/m1"
+        android:title="맞춤돌봄이" />
+    <item
+        android:id="@+id/m2"
+        android:title="지역돌봄이"/>
+    <item
+        android:id="@+id/m3"
+        android:title="단기돌봄이"/>
+    <item
+        android:id="@+id/m4"
+        android:title="급구돌봄이"/>
+    <item
+        android:id="@+id/m5"
+        android:title="돌봄이신청하기"/>
+    <item
+        android:id="@+id/m6"
+        android:title="커뮤니티"/>
+    <item
+        android:id="@+id/m7"
+        android:title="마이페이지"/>
+</menu>

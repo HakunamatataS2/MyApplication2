@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Kakaomap" />
+        <activity android:name=".MainAdd" />
+        <activity android:name=".Mynewwrite" />
+        <activity android:name=".Newwriteframe" />
+        <activity android:name=".Searchlist" />
+        <activity android:name=".Newwrite" />
+        <activity android:name=".Writeintro" />
+        <activity android:name=".Othersintroduce" />
+        <activity android:name=".Community" />
+        <activity android:name=".Match3" />
+        <activity android:name=".Match2" />
+        <activity android:name=".Dialog" />
+        <activity android:name=".Match1" />
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="ebb721f9b3892d94a758cfe1816fe6ff" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCKVsLnqS5Vehif_6qBBsxPsznojoKeD6k" />
+
+        <activity android:name=".Chatmain" />
+        <activity android:name=".Chatmenu" />
+        <activity android:name=".Myintroduce" />
+        <activity android:name=".Mywritepost" />
+        <activity android:name=".Interestpost" />
+        <activity android:name=".Recentpost" />
+        <activity android:name=".Writeframe" />
+        <activity android:name=".Googlemap" />
+        <activity android:name=".write" />
+        <activity android:name=".Shortmenu" />
+        <activity android:name=".Matchmenu" />
+        <activity android:name=".Localmenu" />
+        <activity android:name=".list_item" />
+        <activity android:name=".Quickmenu" />
+        <activity android:name=".mypage" />
+        <activity android:name=".help" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".join" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name=".FirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>
